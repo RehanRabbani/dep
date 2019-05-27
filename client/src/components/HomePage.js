@@ -20,7 +20,7 @@ class Home extends React.Component{
     }
     componentWillMount()
     {
-      axios.get('http://localhost:5000/info/getinfo').then(res =>{
+      axios.get('http://192.168.0.104:5000/info/getinfo').then(res =>{
           this.setState({array:res.data})
           console.log(res.data);
       })
