@@ -6,6 +6,7 @@ const router = require('./routes/coin');
 const secret = process.env.SECRET || "some secret passphrase here for local development"
 const CapBit = require('./models/info');
 require("dotenv").config()
+const cors = require('cors');
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, "client","build")));
 

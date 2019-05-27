@@ -6,11 +6,12 @@
   "scripts": {
     "start": "node index.js",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
-},
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ccxt": "^1.18.120",
+    "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "file-system": "^2.2.2",
@@ -20,6 +21,5 @@
   },
   "engines": {
     "node": "10.15.3"
-}
- 
+  }
 }
