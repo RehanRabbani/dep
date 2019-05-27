@@ -1,0 +1,150 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.display-comtrol{
+ margin-left: auto;
+ margin-right: auto;
+}
+.sub-child-one{
+  
+ 
+}
+.sub-child-two{
+  
+ 
+  
+ 
+}
+p{
+  margin: 0px !important;
+}
+td{
+  
+  width: 0px;
+}
+table{
+  width: 80%;
+  font-size: 1.2em;
+}
+body{
+  margin:0px;
+  
+  font-family: 'Staatliches', cursive;
+ 
+  
+}
+.myNavbar{
+  background-color: #5A8AB2;
+  border-bottom: 0.5px solid #FFFFFF;
+  font-family: 'Staatliches', cursive;
+letter-spacing: 2px;
+font-size: 1.2em;
+width: 100%;
+
+
+}
+
+.myNavbar div {
+  display: none;
+}
+.myNavbar .toggle,
+.myNavbar .brand{
+  display: inline-block;
+}
+.myNavbar .link{
+  display: block;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  background-color: #5A8AB2;
+  color: #FFFFFF;
+}
+.myNavbar .link:hover,.myNavbar .link:active{
+  background-color:#FFFFFF;
+  color: #5A8AB2;
+}
+.myNavbar .brand{
+  width: 10em;
+  text-align: center;
+  padding: 10px;
+  color: #FFFFFF;
+}
+.myNavbar a{
+  text-decoration: none;
+}
+.myNavbar .toggle{
+  padding: 1em;
+  color: #FFFFFF;
+}
+@media (min-width:48em){
+  .myNavbar{
+      display: flex;
+      padding: 0px;
+      width: 100%;
+  }
+  .myNavbar div{
+  display: flex;
+}
+  .myNavbar .left,.myNavbar .right{
+      display: flex;
+      flex: 1;
+  }
+  .myNavbar .link{
+      width: auto;
+  }
+  .myNavbar .right{
+      justify-content: flex-end;
+  }
+  .myNavbar .toggle{
+      display: none;
+  }
+ 
+}
+@media (max-width:48em){
+  .myNavbar.active .toggle{
+      background-color: #5A8AB2;
+      color: #FFFFFF;
+  }
+  .myNavbar .brand{
+      text-align: left;
+  }
+  .myNavbar.active div{
+      display: block;
+  }
+
+ 
+  
+}
+.AboutPageStyle{
+display: flex;
+flex-direction: column;
+}
+.AboutOne{
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10em;
+  background-color:lightblue;
+  font-size: 2em;
+}
+.AboutOne > h1{
+  font-family: 'Coiny', cursive;
+}
+.PAboutTwo{
+  width: 100%;
+  display: flex;
+  margin-bottom: 3em;
+  }
+.AboutTwo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+ width: 50%;
+ border: 1px dotted #e1e1e1;
+ 
+}
